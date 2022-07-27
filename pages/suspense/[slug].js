@@ -2,7 +2,7 @@ import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import React from 'react';
 
-export default function PostsPage({name}) {
+export default function SuspensePage({name}) {
     const Component = dynamic(
         () => import(`../../components/TestComponent`),
         {
